@@ -1,0 +1,176 @@
+.Article-Title {
+    font-size: 18px;
+    color: #34495E;
+    font-family: "Poppins";
+    font-size: 31px;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.Middle-Page {
+    flex-grow: 1;
+}
+
+.First-Ad {
+    width: 120px;
+    height: 5000px;
+    background-color: lightblue;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.Second-Ad {
+    width: 120px;
+    height: 5000px;
+    background-color: lightpink;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.Flexbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Introduction-Text {
+    font-size: 19px;
+    font-family: "Source Sans 3";
+    color: #34495E;
+    margin-left: 10px;
+}
+
+.WebDevelopment-Title {
+    font-size: 45px;
+    font-family: "Source Sans 3";
+    color: #E74C3C;
+    margin-left: 10px;
+}
+
+.WebDevelopment-Title-Box {
+    display: flex;
+    align-items: center;
+}
+
+.html-Icon, .css-Icon, .JS-Icon {
+    width: 7%;
+    margin-left: 40px;
+}
+
+.Country-Flag-USA, .Country-Flag-Canada, .Country-Flag-Germany, .Country-Flag-SouthKorea, .Country-Flag-Japan, .Country-Flag-China, .Country-Flag-Australia, .Country-Flag-Sweden {
+    width: 4%;
+    margin-left: 30px;
+}
+
+.Country-Flag-Australia {
+    margin-left: 78px;
+}
+
+.Country-Flag-Sweden {
+    margin-left: 87px;
+}
+
+.Country-Flag-Japan {
+    margin-left: 111px;
+}
+
+.Country-Flag-USA2, .Country-Flag-Switzerland, .Country-Flag-Singapore {
+    width: 4%;
+    margin-left: 30px;
+}
+
+.Country-Flag-Switzerland {
+    margin-left: 56px;
+}
+
+.Country-Flag-China {
+    margin-left: 125px;
+}
+
+.Country-Flag-Singapore {
+    margin-left: 68px;
+}
+
+.Country-Flag-Canada {
+    margin-left: 92px;
+}
+
+.Country-Flag-Germany {
+    margin-left: 74px;
+}
+
+.Country-List {
+    color: #34495E;
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 10px;
+
+}
+
+.Li {
+    font-family: "Poppins";
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.Bullet-Point-Salary {
+    color: rgb(21, 209, 21);
+    font-weight: bolder;
+    display: inline;
+}
+
+.Bullet-Point-Salary2 {
+    color: rgb(14, 143, 14);
+    font-weight: bolder;
+    display: inline;
+}
+
+.Bullet-Point-Life2 {
+    color: red;
+    font-weight: bolder;
+    display: inline;
+}
+
+.Bullet-Point-Life3 {
+    color: rgb(200, 1, 1);
+    font-weight: bolder;
+    display: inline;
+}
+
+.Bullet-Point-Life1 {
+    color: rgb(150, 1, 1);
+    font-weight: bolder;
+    display: inline;
+}
+
+
+.Bullet-Point-Companies1 {
+    color: blue;
+    font-weight: bolder;
+    display: inline;
+}
+
+.Bullet-Point-Companies2 {
+    color: rgb(0, 0, 150);
+    font-weight: bolder;
+    display: inline;
+}
+
+.Bullet-Point-Companies3 {
+    color: orangered;
+    font-weight: bolder;
+    display: inline;
+}
+
+.Bullet-Point-Companies4 {
+    color: rgb(167, 167, 0);
+    font-weight: bolder;
+    display: inline;
+}
+
+.Bullet-Point-Companies5 {
+    color: rgb(114, 19, 3);
+    font-weight: bolder;
+    display: inline;
+}

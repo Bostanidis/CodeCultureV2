@@ -1,0 +1,84 @@
+.Header {
+    background-color: #2C3E50; /* Midnight Blue */
+    width: 100%; /* Full width */
+    height: 150px; /* Default height */
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Center items horizontally */
+    position: fixed; /* Sticky header */
+    top: 0; /* Stick to the top */
+    left: 0; /* Align to the left */
+    transition: height 0.3s ease; /* Smooth transition for height change */
+    z-index: 1000; /* Ensure header is on top of other content */
+}
+
+
+.Website-Title {
+    color: #1ABC9C;
+    font-family: "Poppins";
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 70px;
+}
+
+ .Header-Button-About-Us, .Header-Button-Articles {
+    color: #1ABC9C;
+    background: none;
+    border: none;
+    font-family: "Source Sans 3";
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+}
+
+
+
+.Header-Buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    margin-right: 200px;
+    overflow: hidden;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.Header-Button-Articles:after, .Header-Button-About-Us:after {
+    content: ''; /* Add content after the element */
+    position: absolute; /* Position absolute for pseudo-element */
+    width: 100%; /* Full width */
+    transform: scaleX(0); /* Initial scale of 0 for underline effect */
+    height: 3px; /* Height of the underline */
+    bottom: 0; /* Align to bottom */
+    left: 0; /* Align to left */
+    background-color: #E74C3C; /* Background color of the underline */
+    transform-origin: center; /* Set transform origin */
+    transition: transform 0.3s ease-out; /* Transition effect for the underline */
+  }
+  
+.Header-Button-Articles:hover:after, .Header-Button-About-Us:hover:after {
+    transform: scaleX(1); /* Scale the underline on hover */
+    transform-origin: center; /* Set transform origin */
+  }
+    
+  .Header-Button-Articles:hover, .Header-Button-About-Us:hover {
+    cursor: pointer;
+  }
+
+.Header-Button-Contact-Us {
+    color: white;
+    background-color: #E74C3C;
+    border: none;
+    font-family: "Source Sans 3";
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 31.5px;
+}
+
+.Header-Button-Contact-Us:hover {
+    cursor: pointer;
+    background-color: #1ABC9C;
+}
+

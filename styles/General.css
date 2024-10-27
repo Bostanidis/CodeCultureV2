@@ -1,0 +1,13 @@
+body, main, html {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-top: 150px;
+}
+
+body {
+    background-color: #ECF0F1;
+    margin-bottom: 2000px;
+}
